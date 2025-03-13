@@ -1,10 +1,5 @@
 # Deep Learning Models for off-target predicitons in CRISPR-Cas9 gene editing
-This repository includes a deep convolutional neural network for predicting the off-targets in CRISPR-Cas9 gene editing. The CNN_std conducted by TensorFlow were trained using CRISPOR dataset. The CNN_std conducted by Keras were trained on the largest sgRNA off-target dataset up to date from [1].
-
-# PUBLICATION
-Please cite this paper if using our preditive model:
-
-Jiecong, Lin. & Ka-Chun, Wong. (2018). Off-target predictions in CRISPR-Cas9 gene editing using deep learning (ECCB 2018 Proceeding Special Issue). Bioinformatics, 34(17), i656–i663. http://doi.org/10.1093/bioinformatics/bty554
+This repository includes a deep convolutional neural network for predicting the off-targets in CRISPR-Cas9 gene editing.
 
 # CRISPOR dataset
 The dataset to plot ROC curves in Figure 3 and 4 of our paper are collected from CRISPOR paper [2]. 
@@ -49,8 +44,4 @@ Following Python packages should be installed:
 </ul>
 
 ---------------------------------------
-Jiecong Lin
 
-jieconlin3-c@my.cityu.edu.hk
-
-January 27 2018
